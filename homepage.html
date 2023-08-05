@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icon/icono_pokebola.ico">
+    <title>Pokedex - Homepage</title>
+    <link rel="stylesheet" href="./styles_homepage.css">
+    <script src="homepage_function.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="pokebola" src="./img_png/logo_pokebola.png" alt="Pokebola">
+        <p>POKEDEX</p>
+    </header>
+
+    <main>
+        <div id="todos">
+            <div class="pokemones listaPokemon">
+
+            </div>
+        </div>
+    </main>
+
+    <template id="templatePokemon">
+        <a href="">
+            <section class="cartaPokemon">
+                <heading>
+                    <div class="contentPokemon-id">
+                        <img src="./img_svg/svg_pokebola.svg" alt="">
+                        <p class="pokemon-id"></p>
+                    </div>
+                            
+                    <div class="contentPokemon-name">
+                        <p class="pokemon-nombre"></p>
+                    </div>
+                </heading>
+    
+                <div class="contentPokemon-imagen">
+                    <div class="pokemon-imagen">
+                        <img class="imgPokemon" src="" alt="">
+                    </div>
+                </div>
+    
+                <div class="pokemon-tipos"></div>
+            </section>
+        </a>
+    </template>
+</body>
+
+</html>

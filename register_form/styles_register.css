@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,
+    #ffffff,
+    #fffacc
+    );
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 450px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #e43d48;
+    box-shadow: 0 8px 15px #0000009a;
+    padding: 1.5rem;
+}
+
+.content-form{
+    width: 450px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 1rem;
+    display: grid;
+    gap: 2rem;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.content-names{
+    display: grid;
+    gap: 4px;
+}
+
+.names{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.content-surnames{
+    display: grid;
+    gap: 4px;
+}
+
+.surnames{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.content-email{
+    display: grid;
+    gap: 4px;
+}
+
+.email{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.content-username{
+    display: grid;
+    gap: 4px;
+}
+
+.username{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.content-password{
+    display: grid;
+    gap: 4px;
+}
+
+.password{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.box-eye{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.box-eye .password{
+    width: 100%;
+}
+
+.btnEye{
+    width: 34px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 3px;
+    cursor: pointer;
+}
+
+input{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.content-btnRegister{
+    display: flex;
+    justify-content: center;
+    padding-block: 1rem;
+}
+
+.content-btnRegister .btnRegister{
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: 300ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.btnRegister:hover{
+    transition: 300ms ease;
+    background: #e43d48;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 520px){
+    form{
+        width: 320px;
+    }
+
+    .content-form{
+        font-size: 15px;
+    }
+
+    input{
+        font-size: 13px;
+        padding: 3px;
+    }
+
+    .btnEye{
+        width: 30px;
+        padding: 4px;
+    }
+
+    .content-btnRegister .btnRegister{
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .content-register{
+        padding-block: 8px;
+    }
+
+    .content-register a{
+        font-size: 13px;
+    }
+}
